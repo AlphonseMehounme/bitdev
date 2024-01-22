@@ -15,7 +15,7 @@ def payrequest(addr, amount, label, message):
 if __name__ == "__main__":
 
     addr = input("Addresse: ")
-    amount = int(input("Amount: "))
+    amount = float(input("Amount: "))
     label = input("Label: ")
     message = input("Message: ")
 
