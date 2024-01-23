@@ -13,12 +13,12 @@ If you are a Bitdev or thinking of starting your journey as Bitdev, let's connec
 
 - Mastering Bitcoin by Antonop : https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01.asciidoc
 - Programming Bitcoin by Jimmy Song : https://github.com/jimmysong/programmingbitcoin
-- Groking Bitcoin :
-- Mastering The Lightning Network by Antonop
+- Groking Bitcoin : https://github.com/kallerosenbaum/grokkingbitcoin
+- Mastering The Lightning Network by Antonop : https://github.com/lnbook/lnbook
 
 ## Fellowship
 
-- BTrust Builders
+- BTrust Builders : 
 - Blink Fellowship : https://brink.dev/programs
 
 ## Grants
