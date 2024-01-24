@@ -25,8 +25,11 @@ If you are a Bitdev or thinking of starting your journey as Bitdev, let's connec
 
 ## Grants
 
+- A guide for bitcoin open-source grant seekers : https://adamjonas.com/bitcoin/funding/grants/grants-bitcoin-open-source/
 - Brink Grant : https://brink.dev/programs#grants
+- Opensats : https://opensats.org/apply
 - HRF - Bidev Fun : https://hrf.org/devfund
+- Spiral : https://spiral.xyz/#grants
 
 ## Newsletter
 
