@@ -26,6 +26,7 @@ If you are a Bitdev or thinking of starting your journey as Bitdev, let's connec
 ## Grants
 
 - Brink Grant : https://brink.dev/programs#grants
+- HRF - Bidev Fun : https://hrf.org/devfund
 
 ## Newsletter
 
