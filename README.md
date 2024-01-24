@@ -8,6 +8,7 @@ If you are a Bitdev or thinking of starting your journey as Bitdev, let's connec
 
 - Bitcoin Developer : https://developer.bitcoin.org/
 - The Bitcoin Dev Project : https://bitcoindevs.xyz/
+- Bitcoin Technical Ressources by Jameson Loop : https://www.lopp.net/bitcoin-information/technical-resources.html
 
 ## Books
 
