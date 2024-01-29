@@ -2,7 +2,7 @@
 
 This is a simple Bitcoin Wallet project in progress for the first week of BTrust Build on Bitcoin Fellowship
 
-Note : Setwig type selection not working yet, but very soon
+Note : Segwit type selection not working yet, but very soon
 
 ## How to run it
 
