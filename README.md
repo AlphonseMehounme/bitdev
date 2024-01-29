@@ -12,7 +12,7 @@ If you are a Bitdev or thinking of starting your journey as Bitdev, let's connec
 
 ## Books
 
-- Mastering Bitcoin by Antonop : https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01.asciidoc
+- Mastering Bitcoin by Antonop : https://github.com/bitcoinbook/bitcoinbook
 - Programming Bitcoin by Jimmy Song : https://github.com/jimmysong/programmingbitcoin
 - Groking Bitcoin : https://github.com/kallerosenbaum/grokkingbitcoin
 - Mastering The Lightning Network by Antonop : https://github.com/lnbook/lnbook
