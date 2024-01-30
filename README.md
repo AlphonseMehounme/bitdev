@@ -19,7 +19,7 @@ If you are a Bitdev or thinking of starting your journey as Bitdev, let's connec
 
 ## Fellowship
 
-- BTrust Builders : 
+- BTrust Builders : https://builders.btrust.tech/
 - Blink Fellowship : https://brink.dev/programs
 - Chaincode Labs : https://learning.chaincode.com/
 
