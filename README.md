@@ -33,9 +33,10 @@ Twitter : @mehounme
 - HRF - Bidev Fun : https://hrf.org/devfund
 - Spiral : https://spiral.xyz/#grants
 
-## Newsletter
+## Newsletter & Others
 
 - Bitcoin Optech - https://bitcoinops.org/en/newsletters/
+- Bitcoin PR Review Club - https://bitcoincore.reviews/
 
 Do not hesitate to share more ressources with me....
 
