@@ -2,7 +2,9 @@
 
 This is my Bitdev journey repo where I save programs I will be writting and share ressources I will be using.
 
-If you are a Bitdev or thinking of starting your journey as Bitdev, let's connect and share ressources
+If you are a Bitdev or thinking of starting your journey as Bitdev, let's connect and share ressources. 
+
+Twitter : @mehounme
 
 ## Websites
 
