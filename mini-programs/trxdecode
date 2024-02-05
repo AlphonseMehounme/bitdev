@@ -1,0 +1,84 @@
+-----
+-----
+Decode
+----
+----
+
+
+
+version : 02000000
+
+Maker : 00
+
+Flag : 01
+
+Input count : 01
+
+Output : 0ccc140e766b5dbc884ea2d780c5e91e4eb77597ae64288a42575228b79e2349
+
+Output Index : 00000000
+
+Input Script length : 00
+
+Frequence : 00000000
+
+Output count : 02
+
+Amount (8 bytes) 0 : bd37060000000000
+
+Output Script Length : 22
+
+Unlock Script 0 : 5120245091249f4f29d30820e5f36e1e5d477dc3386144220bd6f35839e94de4b9ca
+
+Amount 1 : e81c000000000000
+
+Output Scritp Length : 16
+
+Unlock Script 1 : 001416d31d7632aa17b3b316b813c0a3177f5b615020
+
+0140838a1f0f1ee607b54abf0a3f55792f6f8d09c3eb7a9fa46cd4976f2137ca2e3f4a901e314e1b827c3332d7e1865ffe1d7ff5f5d7576a9000f354487a09de44cd00000000
+
+
+------
+-----
+Decode 2
+------
+------
+
+
+
+version : 01000000
+
+Maker : 00
+
+Flag : 01
+
+Input count : 01
+
+Output : eb3ae38f27191aa5f3850dc9cad00492b88b72404f9da135698679268041c54a
+
+Output index : 01000000
+
+Input Script length (Compact size) : 00
+
+Frequence : ffffffff
+
+Output count : 02
+
+Amount (8 bytes) : 204e000000000000
+
+Output Script Length : 22
+
+51203b41daba4c9ace578369740f15e5ec880c28279ee7f51b07dca69c7061e07068
+
+f824010000000000
+
+16
+
+00147752c165ea7be772b2c0acb7f4d6047ae6f4768e
+
+0141cf5efe2d8ef13ed0af21d4f4cb82422d6252d70324f6f4576b727b7d918e521c00b51be739df2f899c49dc267c0ad280aca6dab0d2fa2b42a45182fc83e817130100000000
+
+
+
+
