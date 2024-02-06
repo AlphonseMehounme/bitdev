@@ -3,6 +3,12 @@
 """
 
 class Tx:
+    ...
+
+    @classmethod
+    def parse(cls, stream):
+        serialized_version = stream.read(4)
+        ...
     
 def decoder(trxhex):
     """
