@@ -3,6 +3,9 @@
 """
 import hashlib
 import base58
+from bitcoinlib.wallets import wallet_create_or_open
+from bitcoinlib.transactions import Transaction
+from bitcoinlib.mnemonic import Mnemonic
 
 
 def genredeemscritp(preimage):
@@ -26,11 +29,30 @@ def genp2shaddress(redeem_script):
   p2sh_address = base58.b58encode(address_with_checksum).decode('utf-8')
   return p2sh_address
 
-if __name__ == "__main__":
-  preimage = b"Btrust Builders"
+def trxconstructor(wallet, address, amount, utxotrxid, utxoindex):
+  wallet = wallet_create_or_open(wallet)
+  p2sh_address = address
+  amount = amount
+  
+  tx = Transaction()
+  tx.add_input(utxotrxid, utxoindex)
+  tx.add_output(address=p2sh_address, value=amount)
+  
+  #tx.sign([wallet.address])
+  #serialized_tx = tx.serialize()
 
+if __name__ == "__main__":
+
+  # 1 Generate Redeem Script from Preimage
+  preimage = b"Btrust Builders"
   redeem_script = genredeemscritp(preimage)
   print("Redeem Script (hex):", redeem_script)
-  
+
+  # 2 Derive Address from Redeem Script
   p2sh_address = genp2shaddress(redeem_script)
-  print("P2SH Address:", p2sh_address)
+  print("Address:", p2sh_address)
+
+  # 3 Construct a transaction that send Bitcoin to the address
+  utxotrxid = 0
+  utxoindex = 0
+  trxconstructor("Btrust", p2sh_address, 10000, utxotrxid, utxoindex)
