@@ -2,6 +2,8 @@
   Transaction Decoder Module
 """
 
+class Tx:
+    
 def decoder(trxhex):
     """
       Decode a transaction
