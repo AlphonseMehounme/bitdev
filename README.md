@@ -19,6 +19,10 @@ Twitter : @mehounme
 - Groking Bitcoin : https://github.com/kallerosenbaum/grokkingbitcoin
 - Mastering The Lightning Network by Antonop : https://github.com/lnbook/lnbook
 
+## Youtube
+
+- Base58 School : https://www.youtube.com/@Base58btc
+
 ## Fellowship
 
 - BTrust Builders : https://builders.btrust.tech/
