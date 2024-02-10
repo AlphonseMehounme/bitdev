@@ -22,6 +22,7 @@ Twitter : @mehounme
 ## Youtube
 
 - Base58 School : https://www.youtube.com/@Base58btc
+- PlebLab : https://www.youtube.com/@pbs_plebs
 
 ## Fellowship
 
