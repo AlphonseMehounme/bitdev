@@ -2,6 +2,7 @@
   Block Constructor Module
 """
 import os
+import csv
 
 class MempoolTransaction:
     """
@@ -29,7 +30,7 @@ def parse_mempool_csv():
             txid = parts[0]
             fee = parts[1]
             weight = parts[2]
-            parents = parts[3:]
+            parents = parts[3].split(';')
             transactions.append(MempoolTransaction(txid, fee, weight, parents))
     return transactions
 
@@ -67,9 +68,8 @@ if __name__ == "__main__":
 
     os.remove('otherfile.txt')
     
-    # for j in transactions[526].parents.split(';'):
-    #     print(j)
     print("Block Successfully Constructed\n")
     print(" - Number of transactions included :", len(trxinblock))
     print(" - Block Weight :", weights)
     print(" - Fees :", fees)
+    print()
