@@ -43,11 +43,9 @@ while (i < len(transactions)) and ((weights + transactions[i].weight) <= 4000000
     if transactions[i].parents != None:
         for id in transactions[i].parents:
             if id not in trxinblock:
-                #print("Before break...")
                 parentnotincluded = True
                 break
-    #print("After break")
-    if not parentnotincluded:
+    if parentnotincluded:
         with open('block.txt', 'a') as blockfile:
             blockfile.write(transactions[i].txid)
             blockfile.write('\n')
