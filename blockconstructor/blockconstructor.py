@@ -1,6 +1,7 @@
 """
   Block Constructor Module
 """
+import os
 
 class MempoolTransaction:
     """
@@ -24,7 +25,7 @@ def parse_mempool_csv():
     transactions = []
     with open('mempool.csv') as f:
         for line in f.readlines():
-            parts = line.strip().split(',')
+            parts = line.strip().strip('"').split(',')
             txid = parts[0]
             fee = parts[1]
             weight = parts[2]
@@ -32,26 +33,41 @@ def parse_mempool_csv():
             transactions.append(MempoolTransaction(txid, fee, weight, parents))
     return transactions
 
-transactions = parse_mempool_csv()
-weights = 0
-i = 0
-trxinblock = []
 
+if __name__ == "__main__":
+    
+    i = 0
+    trxinblock = []
+    weights = 0
+    fees = 0
 
-while (i < len(transactions)) and ((weights + transactions[i].weight) <= 4000000):
-    parentnotincluded = False
-    if transactions[i].parents != None:
-        for id in transactions[i].parents:
-            if id not in trxinblock:
-                parentnotincluded = True
-                break
-    if parentnotincluded:
-        with open('block.txt', 'a') as blockfile:
-            blockfile.write(transactions[i].txid)
-            blockfile.write('\n')
-        trxinblock.append(transactions[i].txid)
+    transactions = parse_mempool_csv()
+    
+    while (i < len(transactions)) and ((weights + transactions[i].weight) <= 4000000):
+        parentnotincluded = False
+        if transactions[i].parents != ['']:
+            for id in transactions[i].parents:
+                if id not in trxinblock:
+                    parentnotincluded = True
+                    break
+        if not parentnotincluded:
+            with open('otherfile.txt', 'a') as otherfile:
+                otherfile.write(transactions[i].txid)
+                otherfile.write('\n')
+            trxinblock.append(transactions[i].txid)
         weights += transactions[i].weight
-    i += 1
+        fees += transactions[i].fee
+        i += 1
+    
+    with open('otherfile.txt', 'r') as otherfile:
+        content = otherfile.read()
 
-for trx in trxinblock:
-    print(trx)
+    with open('block.txt', 'w') as block:
+      block.write(content)
+
+    os.remove('otherfile.txt')
+    
+    print("Block Successfully Constructed\n")
+    print(" - Number of transactions included :", len(trxinblock))
+    print(" - Block Weight :", weights)
+    print(" - Fees :", fees)
