@@ -51,8 +51,8 @@ while (i < len(transactions)) and ((weights + transactions[i].weight) <= 4000000
         with open('block.txt', 'a') as blockfile:
             blockfile.write(transactions[i].txid)
             blockfile.write('\n')
-            trxinblock.append(transactions[i].txid)
-            weights += transactions[i].weight
+        trxinblock.append(transactions[i].txid)
+        weights += transactions[i].weight
     i += 1
 
 for trx in trxinblock:
