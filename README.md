@@ -29,6 +29,7 @@ Twitter : @mehounme
 - BTrust Builders : https://builders.btrust.tech/
 - Blink Fellowship : https://brink.dev/programs
 - Chaincode Labs : https://learning.chaincode.com/
+- Summer of Bitcoin : https://www.summerofbitcoin.org/
 
 ## Grants
 
