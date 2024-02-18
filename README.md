@@ -11,6 +11,7 @@ Twitter : @mehounme
 - Bitcoin Developer : https://developer.bitcoin.org/
 - The Bitcoin Dev Project : https://bitcoindevs.xyz/
 - Bitcoin Technical Ressources by Jameson Loop : https://www.lopp.net/bitcoin-information/technical-resources.html
+- Lightning Engineering Builders Guide : https://docs.lightning.engineering/
 
 ## Books
 
