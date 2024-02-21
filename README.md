@@ -24,6 +24,7 @@ Twitter : @mehounme
 
 - Base58 School : https://www.youtube.com/@Base58btc
 - PlebLab : https://www.youtube.com/@pbs_plebs
+- Bitcoin++ : https://www.youtube.com/@btcplusplus
 
 ## Fellowship
 
