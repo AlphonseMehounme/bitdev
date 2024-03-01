@@ -8,6 +8,7 @@ Twitter : @mehounme
 
 ## Websites
 
+- Open Source Guide : https://opensource.guide/
 - Bitcoin Developer : https://developer.bitcoin.org/
 - The Bitcoin Dev Project : https://bitcoindevs.xyz/
 - Bitcoin Technical Ressources by Jameson Loop : https://www.lopp.net/bitcoin-information/technical-resources.html
