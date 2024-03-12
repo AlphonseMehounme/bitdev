@@ -1,8 +1,8 @@
-# bitdev
+# Bitdev => Bitcoin Engineering School
 
-This is my Bitdev journey repo where I save programs I will be writting and share ressources I will be using.
+This is the Bitcoin Engineering School where you find all you need to become a Great Bitcoin Engineer & Developer
 
-If you are a Bitdev or thinking of starting your journey as Bitdev, let's connect and share ressources. 
+If you are a Bitdev, Engineer or thinking of starting your journey in the Bitcoin Tech Industry, let's connect and share ressources. 
 
 Twitter : @mehounme
 
