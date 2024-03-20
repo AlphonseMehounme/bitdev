@@ -14,6 +14,7 @@ Twitter : @mehounme
 - Bitcoin Technical Ressources by Jameson Loop : https://www.lopp.net/bitcoin-information/technical-resources.html
 - Learn Me Bitcoin : https://learnmeabitcoin.com/technical/
 - Lightning Engineering Builders Guide : https://docs.lightning.engineering/
+- Bitcoin For Developers : https://learn.saylor.org/course/view.php?id=500
 
 ## Books
 
