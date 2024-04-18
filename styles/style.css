@@ -9,6 +9,10 @@ header {
     text-align: center;
 }
 
+iframe {
+    text-align: center;
+}
+
 .ressourcebox {
     margin: 20px;
     padding: 10px;
