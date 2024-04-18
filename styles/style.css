@@ -9,8 +9,9 @@ header {
     text-align: center;
 }
 
-iframe {
-    text-align: center;
+#halving {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .ressourcebox {
