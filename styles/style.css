@@ -9,6 +9,11 @@ header {
     text-align: center;
 }
 
+.nav {
+    text-align: center;
+    margin: 20px;
+}
+
 .ressourcebox {
     margin: 20px;
     padding: 10px;
