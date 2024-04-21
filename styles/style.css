@@ -9,6 +9,10 @@ header {
     text-align: center;
 }
 
+.container {
+    margin: 20px;
+}
+
 .nav {
     text-align: center;
     margin: 20px;
@@ -34,7 +38,11 @@ header {
 }
 
 #contact ul {
-    list-style: none;
+    list-style-type: none;
+}
+
+#contact ul li {
+    margin-left: 0;
 }
 
 footer {
