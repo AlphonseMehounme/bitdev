@@ -52,3 +52,7 @@ footer {
 .quiz p, .quiz a button {
     text-align: center;
 }
+
+.courses {
+    display: flex;
+}
