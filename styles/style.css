@@ -55,4 +55,10 @@ footer {
 
 .courses {
     display: flex;
+    justify-content: space-evenly;
+}
+
+.courses course {
+    margin: 10px;
+    border: 2px solid black;
 }
