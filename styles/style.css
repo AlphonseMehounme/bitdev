@@ -49,7 +49,6 @@ footer {
     text-align: center;
 }
 
-.quiz {
+.quiz p, .quiz a {
     text-align: center;
-    border: 1px solid #F6931A;
 }
