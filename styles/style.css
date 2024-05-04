@@ -48,3 +48,8 @@ header {
 footer {
     text-align: center;
 }
+
+.quiz {
+    text-align: center;
+    border: 1px solid #F6931A;
+}
