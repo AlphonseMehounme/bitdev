@@ -49,7 +49,7 @@ footer {
     text-align: center;
 }
 
-.quiz p, .quiz a button {
+.quiz {
     text-align: center;
 }
 
@@ -58,7 +58,22 @@ footer {
     justify-content: space-evenly;
 }
 
-.courses course {
+.course {
     margin: 10px;
+    border: 2px solid #F6931A;
+    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+
+.course a img {
+    width: 200px;
+    height: 200px;
+}
+
+.quiz button {
+    color: #F6931A;
     border: 2px solid black;
+    border-radius: 5px;
 }
