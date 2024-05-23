@@ -55,7 +55,9 @@ footer {
 
 .courses {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .course {
