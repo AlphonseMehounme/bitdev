@@ -79,3 +79,11 @@ footer {
     border: 2px solid black;
     border-radius: 5px;
 }
+
+.course a {
+    text-decoration: none;
+}
+
+.course a:visited {
+    text-decoration: none;
+}
